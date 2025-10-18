@@ -8,8 +8,8 @@ import requests
 from datetime import datetime
 import pytz
 import os
-from dotenv import load_dotenv
-load_dotenv()
+#from dotenv import load_dotenv
+#load_dotenv()
 KEY: Final = os.getenv("KEY")
 BOT_NAME : Final = '@loreimasbot'
 
